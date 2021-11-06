@@ -1,0 +1,98 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#header {
+  align-items: center;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+#header-img {
+  background: transparent;
+  width: 120px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+nav {
+  width: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sign-up-page {
+  align-items: center;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+}
+
+
+#form {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.video-page {
+  align-items: center;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+}
+
+.criminal-justice {
+  display: inline-block;
+  height: 600px;
+  width: 100%;
+}
+
+#insurance-law {
+  display: inline-block;
+  height: 600px;
+}
+
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  @media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
